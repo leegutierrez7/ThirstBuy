@@ -1,13 +1,12 @@
-import requests
 import time
 import hashlib
-from urllib.request import urlopen
+import requests
 from bs4 import BeautifulSoup
 from twilio.rest import Client
-#This is for text messages if you want to use this client - Twillo you need to make an account through their website.
-client = Client("",
-                "")
-
+from urllib.request import urlopen
+# Create account on Twilio via their website (Client that enables text messages).
+client = Client("", # account_sid
+                "") # auth_token
 
 while True:
     #The website you're looking for any changes on. -> For me its the Microcenter website and I'm looking for a RTX 3080, this link is really interchangable. 
@@ -26,6 +25,6 @@ while True:
         time.sleep(120)
     #If its found then text your phone to let you know its in stock! 
     else:
-        client.messages.create(to="",
-                               from_="",
-                               body="RTX 3080 in stock!")
+        client.messages.create(to="",                       # YOUR phone number
+                               from_="",                    # Twilio phone number
+                               body="RTX 3080 in stock!")   # Text Message being delivered
