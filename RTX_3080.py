@@ -25,7 +25,6 @@ yes = emoji.emojize(':white_check_mark: ', use_aliases=True) # Emoji: Green chec
 url = 'https://www.microcenter.com/search/search_results.aspx?Ntt=rtx+3080&Ntk=all&sortby=match&N=44&myStore=true'
 
 n = 1
-
 while True:
     response = urlopen(url).read()
     soup = BeautifulSoup(response, "lxml")                      # A parser tree (lxml format) helps search for a string.

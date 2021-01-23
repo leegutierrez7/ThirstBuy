@@ -1,4 +1,4 @@
-# ThirstBuy
+# MicroCenter : RTX 3080
 Checks HTML class to see when status changes from out of stock -> in stock. Basic script to run on a Jenkins server and you can switch out the while true statement, or you can just keep it running in the background.
 
 ## Prerequisites:
@@ -15,4 +15,4 @@ Checks HTML class to see when status changes from out of stock -> in stock. Basi
 - Method 1: [Trial](https://www.twilio.com/console/phone-numbers/trial-number/modal?capability[]=sms)  
 - Method 2: [Purchase](https://www.twilio.com/console/phone-numbers/search)  
 4.) Insert your Twilio crendentials + Phone Numbers within labeled area   
-5.) Deploy! (`$ python3 ThirstBuy.py`)
+5.) Deploy! (`$ python3 RTX_3080.py`)
