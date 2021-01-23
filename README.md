@@ -3,7 +3,7 @@ Checks HTML class to see when status changes from out of stock -> in stock. Basi
 
 ## Prerequisites:
 - Have the following python3 modules installed: lxml, emoji, twilio, beautifulsoup4   
-  - `$ sudo pip install lxml emoji twilio beautifulsoup4`
+  - `$ pip install lxml emoji twilio beautifulsoup4`
 - Valid (personal/work) phone number
 - Twilio account + Twilio phone number ([see instructions](#instructions)).  
   - Skip to step #4 of instructions if you already have both of these.
