@@ -9,7 +9,7 @@
        $$ |   $$ |  $$ |$$ |$$ |      /     $$/   $$  $$/ $$    $$/ $$    $$/ $$    $$ |
        $$/    $$/   $$/ $$/ $$/       $$$$$$$/     $$$$/  $$$$$$$/   $$$$$$/   $$$$$$$ |
                                                                               /  \__$$ |
-                ~ Website : https://gardunos.tech                             $$    $$/
+                ~ Website : gardunos.tech                                     $$    $$/
                                                                                $$$$$$/
 
 
@@ -30,5 +30,5 @@ ThirstBuy is a python script that will go onto MicroCenter's website & checks an
 3.) Obtain a phone number via Twilio (2 methods):   
 - Method 1: [Trial](https://www.twilio.com/console/phone-numbers/trial-number/modal?capability[]=sms)  
 - Method 2: [Purchase](https://www.twilio.com/console/phone-numbers/search)  
-4.) Deploy! (`$ python3 `<a href="https://github.com/luisegarduno/ThirstBuy/releases/download/1.0/ThirstBuy.py" target="_top"><b>`ThirstBuy.py`</b></a>)   
+4.) Deploy! (`$ python3`[`ThirstBuy.py`](https://github.com/luisegarduno/ThirstBuy/releases/download/1.0/ThirstBuy.py))   
 5.) Insert your Twilio crendentials + Phone Numbers when prompted to
